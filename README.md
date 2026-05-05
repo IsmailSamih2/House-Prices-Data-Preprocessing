@@ -1,13 +1,5 @@
 # House Prices: Advanced Regression - Data Preprocessing
 
-### Project Overview
-This project completes the first assignment for the Machine Learning course. It focuses on the comprehensive data preprocessing of the "House Prices: Advanced Regression Techniques" dataset from Kaggle. The goal is to prepare a clean and engineered training set ready for regression modeling.
-
-### Dataset
-- **Source:** Kaggle House Prices Competition.
-- **Context:** 79 explanatory variables describing residential homes in Ames, Iowa.
-- **Target:** `SalePrice`.
-
 ### Implemented Tasks
 
 #### 1. Data Retrieval
@@ -16,7 +8,7 @@ This project completes the first assignment for the Machine Learning course. It 
 - Implemented memory management by optimizing column data types (downcasting and categorical conversion).
 
 #### 2. Data Cleaning
-- **Missing Values:** Analyzed significant missing data (PoolQC, MiscFeature, Alley, etc.) and applied appropriate filling strategies (e.g., treating NaN as "No Pool/None").
+- **Missing Values:** Analyzed significant missing data (PoolQC, MiscFeature, Alley, etc.) and applied appropriate filling strategies (e.g., treating NaN as “No Pool/None”).
 - **Outlier Removal:** Identified extreme observations in `GrLivArea` vs `SalePrice` and removed them to improve model stability.
 - **Data Transformation:** Applied logarithmic transformation (`np.log1p`) to the target variable `SalePrice` to normalize its right-skewed distribution.
 
